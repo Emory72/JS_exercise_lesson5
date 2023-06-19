@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid .nav_logo i {
+    color: #7431F8;
+    font-size: 35px;
+   
+}
+
+.container-fluid .nav_logo a {
+    text-decoration: none;
+    text-align: center;
+    color: #7431F8;
+    
+    }
+.navbar-nav .nav-item{
+    border: 1px solid #7431F8;
+    border-radius: 5px;
+    margin: 0 20px;
+    transition: all 0.5s;
+}
+
+ .navbar-nav .nav-item .nav-link{
+    transition: all 0.5s;
+    color: #7431F8;
+    padding-right: 0;
+    }
+      
+.navbar-nav .nav-item:hover{
+   background-color:#7431F8;
+   
+    }
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: white;
+}
+
+  

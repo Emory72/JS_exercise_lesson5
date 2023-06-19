@@ -31,11 +31,40 @@
       
 .navbar-nav .nav-item:hover{
    background-color:#7431F8;
+   font-weight: bold;
    
     }
 
 .navbar-nav .nav-item .nav-link:hover {
     color: white;
 }
+/* Content CSS */
+.content .container{
+    background-image: url(../image726534.jpeg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 10px;
+}
 
+.content .title{
+    color: #7431F8;
+}
+.content .row .col-lg-4 input{
+    font-size: 20px;
+    color: black    ;
+    border: 1px solid rgb(204, 202, 202);
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 8px 0px 7px 15px;
+}
   
+.content .btn {
+    background-color: #7431F8;
+    color: white;
+    padding:10px 30px;
+}
+
+.content .result i {
+    color: #7431F8;
+}

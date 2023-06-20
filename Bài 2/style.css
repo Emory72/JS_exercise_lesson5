@@ -29,16 +29,17 @@
     padding-right: 0;
     }
       
-    .navbar-nav .nav-item.active, .navbar-nav .nav-item:hover{
-        background-color:#7431F8;
-        font-weight: bold;
-        
-         }
-     
-     .navbar-nav .nav-item .nav-link.active, .navbar-nav .nav-item .nav-link:hover{
-         color: white;
-     }
-     
+.navbar-nav .nav-item.active, .navbar-nav .nav-item:hover{
+   background-color:#7431F8;
+   font-weight: bold;
+   
+    }
+
+.navbar-nav .nav-item .nav-link.active, .navbar-nav .nav-item .nav-link:hover{
+    color: white;
+}
+
+
 /* Content CSS */
 .content .container{
     background-image: url(../image726534.jpeg);
@@ -51,7 +52,7 @@
 .content .title{
     color: #7431F8;
 }
-.content .row .col-lg-4 input{
+.content input{
     font-size: 20px;
     color: black    ;
     border: 1px solid rgb(204, 202, 202);

@@ -29,16 +29,15 @@
     padding-right: 0;
     }
       
-    .navbar-nav .nav-item.active, .navbar-nav .nav-item:hover{
-        background-color:#7431F8;
-        font-weight: bold;
-        
-         }
-     
-     .navbar-nav .nav-item .nav-link.active, .navbar-nav .nav-item .nav-link:hover{
-         color: white;
-     }
-     
+.navbar-nav .nav-item:hover{
+   background-color:#7431F8;
+   font-weight: bold;
+   
+    }
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: white;
+}
 /* Content CSS */
 .content .container{
     background-image: url(../image726534.jpeg);
